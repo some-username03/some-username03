@@ -1,0 +1,55 @@
+html {
+    display: block;
+    font-family: sans-serif;
+    margin: 50px auto;
+    background-color: deepskyblue;
+    background-image: url("pictures/background.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+.profilePic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    margin: auto;
+    background-color:rgb(47, 255, 85);
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px 30px;
+    border-radius: 20px;
+    width: 500px;
+    height: 100px;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.logo {
+    display:inline-block;
+    height: 25px;
+    text-align: left;
+}
+
+.links {
+    text-align: center;
+}
