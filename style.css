@@ -53,3 +53,10 @@ button:hover {
 .links {
     text-align: center;
 }
+.downloads {
+    text-align: center;
+}
+
+.resume {
+    background-color:rgb(5, 177, 235);
+}
